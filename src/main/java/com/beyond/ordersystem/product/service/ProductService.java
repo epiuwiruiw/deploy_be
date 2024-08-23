@@ -133,6 +133,7 @@ public class ProductService {
             //애매할떄는 런타임 exception 던진다, 예외를 터트려줘야 트랜잭션 예외 처리가 된다.
             throw new RuntimeException("이미지 저장에 실패했습니다.");
         }
+        System.out.println("ok");
 
         return product;
     }
