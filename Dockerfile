@@ -3,7 +3,7 @@
 FROM openjdk:11 as stage1
 WORKDIR /app
 #/app/gradlew 파일로 생성
-COPY gradlew /app/gradlew
+COPY gradlew .
 #/app/gradle 폴더로 생성
 COPY gradle gradle
 COPY src src
