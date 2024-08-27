@@ -25,4 +25,3 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 #docker컨테이너 실행시에 볼륨을 설정할 때에는 -v 옵션 사용
 #docker run -d -p 8081:8080 -e SPRING_DATASOURCE_URL=jdbc:mariadb://host.docker.internal:3306/board -v C:\Users\Playdata1\Desktop\tmp_logs:/app/logs spring_test:latest
-#주석주석
